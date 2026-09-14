@@ -129,6 +129,18 @@ a:hover {
   animation: riseIn 1s var(--ease) 0.15s both;
 }
 
+.hero__brand {
+  margin: 0 0 0.85rem;
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  letter-spacing: 0.14em;
+  line-height: 1;
+}
+
+.hero__brand span {
+  color: var(--accent);
+}
+
 .hero__kicker {
   margin: 0 0 0.75rem;
   font-family: var(--font-ui);
